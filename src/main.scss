@@ -1,0 +1,60 @@
+.mode-change-img {
+    cursor: pointer;
+}
+
+.first-circle {
+    width: 45px;
+    height: 45px;
+    background: blue;
+    z-index: 3;
+}
+
+.all-step-lines {
+    width: 250px;
+    height: 10px;
+    background: rgb(148, 148, 170);
+    margin-left: -5px;
+}
+
+.first-step-line {
+    background: rgb(0, 0, 254);
+}
+
+.all-small-circles {
+    width: 25px;
+    height: 25px;
+    background: rgb(0, 76, 255);
+    margin-left: -5px;
+    z-index: 3;
+}
+
+.second-circle::after {
+    position: absolute;
+    content: 'Personal info';
+    top: 55px;
+    right: 680px;
+}
+
+.third-circle::after {
+    position: absolute;
+    content: 'Your company';
+    top: 55px;/*  */
+    right: 400px;
+}
+
+.fouth-circle::after {
+    position: absolute;
+    content: 'About company';
+    top: 55px;/*  */
+    right: 120px;
+}
+
+.wrapper {
+    width: 250px;
+    padding: 15px;
+    border: solid 1px black;
+}
+
+.test-img {
+    cursor: pointer;
+}
